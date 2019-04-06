@@ -1,0 +1,209 @@
+body {
+background-image: url(../../assets/images/bg.png); 
+  
+
+  font-family: Georgia, 'Times New Roman', Times, serif;
+
+  }
+  h1{
+    font-family: 'Georgia', Times, "Times New Roman", serif;
+
+  }
+  h2{
+  font-size: 24px;
+  }
+  p {
+  font-size:14px;
+  font-family :Arial, "Helvetica Neue", Helvetica, sans-serif;
+  }
+  #tophead {
+  position: fixed;
+  z-index: 100;
+  width: 100%;
+  margin: 0 0 30px 0;
+  background: white;
+  border-bottom: 3px solid #dddddd;
+  left: 0;
+  top: 0;
+  }
+  #person {
+  float: left;
+  position: relative;
+  left: 75px;
+  width: 350px;
+  height: 90px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 100px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  background: teal;
+  }
+
+  
+  nav {
+  position: relative;
+  line-height:50px;
+  right: 75px;
+  float: right;
+  font-size:20px;
+  margin-top: 25px;
+  }
+  nav a {
+  display: inline-block;
+  padding-left: 15px;
+  margin-left: 15px;
+  line-height: 25px;
+  color: black;
+  text-decoration: none;
+  border-left: 3px solid rgb(182, 182, 233);
+  }
+  nav a:first-child {
+  border-left: 0 none;
+  }
+  a {
+  transition: color red .5s;
+  }
+  a:hover {
+  color: gold;
+  }
+  a:active {
+  color:red;
+  }
+  .maincont {
+  position: relative;
+  top: 150px;
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  }
+  .subcont {
+  width: 75%;
+  background-color: red;
+  padding: 30px;
+  border: 100px;
+  }
+  #pageis {
+  text-align: left;
+  padding: 30px;
+  background-color: rgb(233, 230, 230);
+  font-weight: 600;
+  border-bottom: solid 0px;
+  color: teal;
+  border-bottom: solid 2px grey;
+  }
+  .holder {
+  position: relative;
+  background-color: white(174, 154, 221, 0.329);
+  width: 100%;
+  min-height: 350px;
+  overflow:hidden;
+  }
+  #mainimg {
+  float: left;
+  border:10px;
+  padding: 30px;
+  }
+  #fun {
+  color:white;
+  font-size: 24px;
+  position: relative;
+  bottom: -20px;
+  text-align: center;
+  }
+  .relativetofooter{
+  position: relative;
+  }
+  .footercont {
+  clear: both;
+  padding: 5px;
+  background: red;
+  position: relative;
+  bottom:-300px;
+  width:100%;
+  background: #666666;
+  /* background-image: url("https://66.media.tumblr.com/0f611cea0d9752921531ede59adaa978/tumblr_o2eziiORfr1sb5osho1_500.gif"); */
+  border-top: solid 5px teal;
+  }
+  .footer {
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  }
+  ul {
+  border: 5px;
+  padding:5px;
+  }
+  .formis {
+  margin: 20px;
+  }
+  .form {
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  width: 100%;
+  }
+  input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  border: 1px solid grey;
+  box-sizing: border-box;
+  }
+  input[type=submit] {
+  background-color: teal;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+  }
+  #portpic {
+  background-color: red;
+  position: relative;
+  float: left;
+  width: 100%;
+  }
+  #portdesc {
+  clear: both;
+  background: teal;
+  text-align: center;
+  color: white;
+  float: left;
+  width:100%;
+  position: relative;
+  font-weight: 700;
+  font-size: 20px;
+  z-index: 2;
+  bottom: 70px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  }
+  .subsubcont {
+  padding: 20px;
+  width:25%;
+  float: left;
+  }
+  .subholder {
+  position: relative;
+  left: 60px;
+  margin-left: auto;
+  margin-right: auto;
+  }
+  .hovereffect:hover {
+  transition: .5s ease;
+  opacity: 0.7;
+  filter: contrast(300%);
+  }
+
+  .submithover:hover {
+    transition: .5s ease;
+    background: darkcyan;
+    padding:7px;
+  }
+
+  
