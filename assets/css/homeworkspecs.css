@@ -205,5 +205,125 @@ background-image: url(../../assets/images/bg.png);
     background: darkcyan;
     padding:7px;
   }
-
   
+/* Not much to be changed in 980px screen size  */
+  @media (max-width: 980px) {
+    
+    body{
+      width:100%;
+     
+    }
+    .maincont {
+     
+      width:100%;
+    }
+    
+     
+  }
+
+/* END OF REGULAR 980px SCREEN */
+
+
+
+/* TABLET SIZE at 768px */
+@media screen and (max-width: 768px){
+
+  body{
+    width:100%;
+  }
+  .maincont{
+    width: 90%;
+  }
+
+  .container {
+    position: relative;
+    left:-60px;
+  }
+
+  .nav1 { 
+    position: relative;
+    right: -50px;
+
+  }
+
+  .subholder {
+    position: relative;
+    left:0;
+    
+  }
+
+  #portdesc {
+    font-size: 15px;
+    max-height: 15px;
+  }
+
+  .subsubcont {
+    float: left;
+    width: 40%;
+  }
+}
+
+/* END OF @MEDIA FOR TABLET */
+  
+
+
+
+/* FOR SMARTPHONES 640px */
+@media screen and (max-width: 640px){
+
+
+  body{
+    width:100%;
+  }
+  .maincont{
+    width: 90%;
+    position: relative;
+    top:200px;
+  }
+
+  #person {
+    width: 100%;
+  }
+
+  .nav1 { 
+    position: relative;
+    right: 90px;
+    top:-10px;
+
+  }
+
+  #mainimg {
+    padding: 0;
+    border:0;
+    width:90%;
+    height:25%;
+    margin-bottom: 20px;
+    margin-left:5%;
+    margin-right:5%;
+
+    
+
+  }
+  .textcont {
+    clear:left;
+  }
+
+  .subholder {
+    position: relative;
+    left:0;
+    
+  }
+
+  .subsubcont {
+    float: left;
+    width: 90%;
+  }
+
+  #portpic {
+    height:100%;
+  }
+}
+
+
+
+
